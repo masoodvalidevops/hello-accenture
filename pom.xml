@@ -3,17 +3,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-  <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.accenture</groupId>
-  <artifactId>hello-accenture</artifactId>
-  <version>1.0</version>
-  <packaging>war</packaging>
+    <groupId>com.accenture</groupId>
+    <artifactId>hello-accenture</artifactId>
+    <version>1.0</version>
+    <packaging>war</packaging>
+
+    <build>
+        <finalName>hello-accenture</finalName>
+    </build>
 
 </project>
-<distributionManagement>
-  <repository>
-    <id>nexus</id>
-    <url>http://<nexus-ip>:8081/repository/maven-releases/</url>
-  </repository>
-</distributionManagement>
+
