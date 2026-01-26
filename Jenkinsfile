@@ -34,7 +34,7 @@ pipeline {
 
         stage('Deploy to Tomcat') {
             steps {
-                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'Tomcat-Jenkins', path: '', url: 'http://13.126.115.148:9090')], contextPath: null, war: 'target/hello-accenture.war'
+                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'Tomcat-Jenkins', path: '', url: 'http://13.232.49.159:9090')], contextPath: null, war: 'target/hello-accenture.war'
                 
             }
         }
