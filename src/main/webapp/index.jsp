@@ -2,6 +2,6 @@
 <html>
   <head><title>Hello Accenture</title></head>
   <body>
-    <h1>Welcome to the Hello Accenture Web Application</h1>
+    <h1>Hello Good Afternoon</h1>
   </body>
 </html>
